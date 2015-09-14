@@ -1,14 +1,30 @@
+import processing.core.*; 
+import processing.data.*; 
+import processing.event.*; 
+import processing.opengl.*; 
+
+import java.util.HashMap; 
+import java.util.ArrayList; 
+import java.io.File; 
+import java.io.BufferedReader; 
+import java.io.PrintWriter; 
+import java.io.InputStream; 
+import java.io.OutputStream; 
+import java.io.IOException; 
+
+public class Dice extends PApplet {
+
 
 int size=50;
 Die Rex;
 int dotSize=10;
 int num=0;
-void setup()
+public void setup()
 {
 	size(400,420);
 	noLoop();
 }
-void draw()
+public void draw()
 {	background(255,255,255);
 	stroke(20);
 	fill(0);
@@ -27,7 +43,7 @@ void draw()
 
 
 }
-void mousePressed()
+public void mousePressed()
 {
 	num=0;
 	redraw();
@@ -43,7 +59,7 @@ class Die //models one single dice cube
 		myX=x;
 		myY=y;//variable initializations here
 	}
-	void roll()
+	public void roll()
 	{
 	fill(0,0,0);
 
@@ -92,7 +108,7 @@ class Die //models one single dice cube
 }
 
 		//your code here
-	void show()
+	public void show()
 	{
 		fill(num,num,num);
 		rect(myX,myY,size,size);
@@ -100,4 +116,13 @@ class Die //models one single dice cube
 	
 		
 	}
+}
+  static public void main(String[] passedArgs) {
+    String[] appletArgs = new String[] { "Dice" };
+    if (passedArgs != null) {
+      PApplet.main(concat(appletArgs, passedArgs));
+    } else {
+      PApplet.main(appletArgs);
+    }
+  }
 }
