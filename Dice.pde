@@ -1,7 +1,7 @@
 
 int size=50;
 Die Rex;
-int dotSize=10;
+int dotSiz=10;
 int num=0;
 void setup()
 {
@@ -52,41 +52,41 @@ class Die //models one single dice cube
 
 	if (dot==1)
 	{
-		ellipse(myX+25,myY+25,dotSize,dotSiz);
+		ellipse(myX+25,myY+25,dotSiz,dotSiz);
 	}
 	if (dot==2)
 	{
-		ellipse(myX+12,myY+12,dotSize,dotSiz);
-		ellipse(myX+38,myY+38,dotSize,dotSiz);
+		ellipse(myX+12,myY+12,dotSiz,dotSiz);
+		ellipse(myX+38,myY+38,dotSiz,dotSiz);
 	}
 	if (dot==3)
 	{
-		ellipse(myX+25,myY+25,dotSize,dotSiz);
-		ellipse(myX+12,myY+12,dotSize,dotSiz);
-		ellipse(myX+38,myY+38,dotSize,dotSiz);	
+		ellipse(myX+25,myY+25,dotSiz,dotSiz);
+		ellipse(myX+12,myY+12,dotSiz,dotSiz);
+		ellipse(myX+38,myY+38,dotSiz,dotSiz);	
 	}
 	if (dot==4)
 	{
-	ellipse(myX+12,myY+12,dotSize,dotSiz);
-	ellipse(myX+38,myY+38,dotSize,dotSiz);
-	ellipse(myX+12,myY+38,dotSize,dotSiz);
-	ellipse(myX+38,myY+12,dotSize,dotSiz);
+	ellipse(myX+12,myY+12,dotSiz,dotSiz);
+	ellipse(myX+38,myY+38,dotSiz,dotSiz);
+	ellipse(myX+12,myY+38,dotSiz,dotSiz);
+	ellipse(myX+38,myY+12,dotSiz,dotSiz);
 	}
 	if (dot==5)
 	{
-	ellipse(myX+12,myY+12,dotSize,dotSiz);
-	ellipse(myX+38,myY+38,dotSize,dotSiz);
-	ellipse(myX+12,myY+38,dotSize,dotSiz);
-	ellipse(myX+38,myY+12,dotSize,dotSiz);
-	ellipse(myX+25,myY+25,dotSize,dotSiz);
+	ellipse(myX+12,myY+12,dotSiz,dotSiz);
+	ellipse(myX+38,myY+38,dotSiz,dotSiz);
+	ellipse(myX+12,myY+38,dotSiz,dotSiz);
+	ellipse(myX+38,myY+12,dotSiz,dotSiz);
+	ellipse(myX+25,myY+25,dotSiz,dotSiz);
 	}
 	if (dot==6){
-	ellipse(myX+12,myY+12,dotSize,dotSiz);
-	ellipse(myX+38,myY+38,dotSize,dotSiz);
-	ellipse(myX+12,myY+38,dotSize,dotSiz);
-	ellipse(myX+38,myY+12,dotSize,dotSiz);
-	ellipse(myX+12,myY+25,dotSize,dotSiz);
-	ellipse(myX+38,myY+25,dotSize,dotSiz);
+	ellipse(myX+12,myY+12,dotSiz,dotSiz);
+	ellipse(myX+38,myY+38,dotSiz,dotSiz);
+	ellipse(myX+12,myY+38,dotSiz,dotSiz);
+	ellipse(myX+38,myY+12,dotSiz,dotSiz);
+	ellipse(myX+12,myY+25,dotSiz,dotSiz);
+	ellipse(myX+38,myY+25,dotSiz,dotSiz);
 	}
 	
 }
