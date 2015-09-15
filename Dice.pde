@@ -1,5 +1,5 @@
 
-int size=50;
+int siz=50;
 Die Rex;
 int dotSiz=10;
 int num=0;
@@ -95,7 +95,7 @@ class Die //models one single dice cube
 	void show()
 	{
 		fill(num,num,num);
-		rect(myX,myY,size,size);
+		rect(myX,myY,siz,siz);
 
 	
 		
